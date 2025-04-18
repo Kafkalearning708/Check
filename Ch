@@ -1,0 +1,12 @@
+It was mentioned that the application status progression is one-way — once updated, it cannot move backward.
+
+However, in the documentation, under the Failed status, it says that if there are issues during the submission process (like missing information or internal technical faults), the user can correct the errors and resubmit the application or cancel it.
+
+We just wanted to clarify:
+
+Does “submission process” here refer to our API’s submit call or the downstream system’s handling?
+
+And how should the resubmission work, considering that the status is not expected to move backward?
+
+
+This would help us better understand how the remediation process is intended to work.
